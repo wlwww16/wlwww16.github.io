@@ -1,0 +1,46 @@
+body {
+	background-color: #1d2021;
+	color: #ebdbb2;
+	font-family: sans-serif;
+	font-size: 125%;
+	padding: 15rem;
+}
+
+main {
+	padding: 5%;
+}
+
+h1 {
+	font-family: serif;
+	color: #458588
+}
+
+h2 {
+	color: #689d6a;
+}
+
+a, a:visited {
+	color: #b16286;
+}
+
+code {
+	color: #a89984;
+}
+
+.me {
+	float: right;
+	border-radius: 50%;
+	width: 35%;
+	border: 2px solid #282828;
+}
+
+div.about dd{
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+div.public-links img {
+	margin-right: 0.3rem;
+	margin-top: 0.3rem;
+	width: 1.1rem;
+} 
