@@ -10,7 +10,7 @@
 
 	<body>
 
-		<img class="me" src="assets/me.jpg" title="A recent picture of me after hiking up a mountain" />
+		<img id="me" src="assets/me.jpeg" title="A recent picture of me after hiking up a mountain" />
 
 		<main>
 			<h1>Will Lewis Williams</h1>
@@ -30,6 +30,7 @@
 				<dd>I occasionally publish videos you may find interesting!</dd>
 			</div>
 
+			<!--
 			<div class="about">
 				<h2>About me</h2>
 				<dt>I am...</dt>
@@ -37,6 +38,91 @@
 				<dd>A fan of the outdoors, the gym, and cycling 🌲</dd>
 				<dd>Finalising my studies in Mathematics and Computer Science 📚</dd>
 				<dd>Incredibly <strong>humbled</strong> and <strong>blessed</strong> to know you are visiting my page! 😀</dd>
+			</div>
+			-->
+
+			<div class="projects">
+				<h2>Projects</h2>
+				<ol>
+					<li>
+						<details open>
+							<summary><dt>This website</dt></summary>
+							<p>
+								<img src="assets/github.png" alt="GitHub logo"/>
+								<strong>
+									<a href="https://github.com/wlwww16/wlwww16.github.io">Source code</a>
+								</strong>
+							</p>
+							<dd>
+								This website is an example of my general design philosophy. I like simple,
+								minimal, but effective design.
+							</dd>
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary><dt>Linux</dt></summary>
+							<a href="assets/desktop.png">
+								<img src="assets/desktop.png" alt="My desktop" id="screenshot" />
+							</a>
+							<p>
+								The software shown in the screenshot below is, from left-to-right,
+								<strong>Librewolf</strong>, <strong>Pcmanfm</strong>,
+								<strong>neofetch</strong> inside <strong>st</strong>, then
+								<strong>dmenu</strong> in the centre, and <strong>polybar</strong> at the top.
+							</p>
+							<p>
+								<img src="assets/github.png" alt="GitHub logo"/>
+								<strong>
+									<a href="https://github.com/wlwww16/dotfiles">dotfiles</a>
+								</strong>
+							</p>
+							<dd>
+								My dotfiles contain most of my program configuration and modifications used on my
+								Linux system. They also contain the shell scripts I use, some of which are made by
+								me, while others are from other members of the open-source community.
+							</dd>
+						</details>
+					</li>
+					<li>
+						<details>
+							<summary><dt>Suckless utilities</dt></summary>
+							<p>
+								The suckless utilities are a collection of minimal, fast, and efficient programs
+								written in C and configured by editing the source code.
+							</p>
+							<p>
+								<img src="assets/github.png" alt="GitHub logo"/>
+								<strong>
+									<a href="https://github.com/wlwww16/dwm">dwm</a>
+								</strong>
+							</p>
+							<dd>
+								dwm is suckless' dynamic window manager for X. My build contains several patches
+								and modifications to suit my workflow.
+							</dd>
+							<p>
+								<img src="assets/github.png" alt="GitHub logo"/>
+								<a href="https://github.com/wlwww16/st">st</a>
+							</p>
+							<dd>
+								The simple terminal, st, is suckless' terminal emulator. I have made a few light
+								patches and customisations to it.
+							</dd>
+							<p>
+									<img src="assets/github.png" alt="GitHub logo"/>
+									<a href="https://github.com/wlwww16/dmenu">dmenu</a> /
+									<a href="https://github.com/slock">slock</a> /
+									<a href="https://github.com/slstatus">slstatus</a>
+							</p>
+							<dd>
+								The programs linked above are smaller tools I use on a regular basis.
+								<strong>dmenu</strong> is an application launcher, <strong>slock</strong>
+								is a screen locker, and <strong>slstatus</strong> is a status monitor
+								I use to put system information in the dwm bar.
+						</details>
+					</li>
+				</ol>
 			</div>
 		</main>
 	</body>
