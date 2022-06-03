@@ -47,6 +47,11 @@ div.public-links img, div.projects img {
 	width: 1.1rem;
 }
 
+div.technologies img {
+	margin-right: 0.3rem;
+	width: 2rem;
+}
+
 div.projects img#screenshot {
 	width: 80%;
 	height: auto;
