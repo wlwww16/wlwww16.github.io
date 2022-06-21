@@ -1,6 +1,6 @@
 body {
-	background-color: #1d2021;
-	color: #ebdbb2;
+	background-color: #191919;
+	color: #f8f8f2;
 	font-family: sans-serif;
 	font-size: 110%;
 }
@@ -13,26 +13,26 @@ main {
 
 h1 {
 	font-family: serif;
-	color: #458588
+	color: #66d9ef;
 }
 
 h2 {
-	color: #689d6a;
+	color: #f92672;
 }
 
 a, a:visited, div.projects summary {
-	color: #b16286;
+	color: #fd5ff0;
 }
 
 code {
-	color: #a89984;
+	color: #75715e;
 }
 
 #me {
 	float: right;
 	border-radius: 50%;
 	width: 30%;
-	border: 2px solid #282828;
+	border: 2px solid #272822;
 	margin: 5%;
 }
 
